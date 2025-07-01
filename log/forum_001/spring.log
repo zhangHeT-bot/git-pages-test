@@ -1,0 +1,26 @@
+2025-07-01 14:06:51  INFO 1044 --- [restartedMain] com.bitejiuyeke.forum.ForumApplication   : Starting ForumApplication using Java 1.8.0_91 on DESKTOP-8L5DR28 with PID 1044 (C:\Users\朝天椒\Desktop\forum\forum\target\classes started by 朝天椒 in C:\Users\朝天椒\Desktop\forum\forum)
+2025-07-01 14:06:51  INFO 1044 --- [restartedMain] com.bitejiuyeke.forum.ForumApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-07-01 14:06:51  INFO 1044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 14:06:51  INFO 1044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 58080 (http)
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1415 ms
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-07-01 14:06:53  INFO 1044 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2025-07-01 14:06:54  INFO 1044 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-07-01 14:06:54  INFO 1044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-07-01 14:06:54  INFO 1044 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-07-01 14:06:54  INFO 1044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 58080 (http) with context path ''
+2025-07-01 14:06:54  WARN 1044 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2025-07-01 14:06:54  WARN 1044 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2025-07-01 14:06:54  INFO 1044 --- [restartedMain] com.bitejiuyeke.forum.ForumApplication   : Started ForumApplication in 3.685 seconds (JVM running for 4.234)
+2025-07-01 14:07:20  INFO 1044 --- [http-nio-58080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 14:07:20  INFO 1044 --- [http-nio-58080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-01 14:07:20  INFO 1044 --- [http-nio-58080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-01 14:07:36  INFO 1044 --- [http-nio-58080-exec-3] c.b.forum.services.impl.UserServiceImpl  : 登录成功, username = ctj
+2025-07-01 14:07:37  INFO 1044 --- [http-nio-58080-exec-1] c.b.forum.controller.BoardController     : 首页版块个数为：9
+2025-07-01 14:11:54  INFO 1044 --- [http-nio-58080-exec-5] c.b.f.services.impl.ArticleServiceImpl   : code = 0, message = 操作成功. , user id = 4, board id = 1, article id = 1发帖成功
+2025-07-01 15:22:55  INFO 1044 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2025-07-01 15:22:55  INFO 1044 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
